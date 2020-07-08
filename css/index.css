@@ -1,0 +1,109 @@
+*{margin: 0;padding: 0;}
+/* nav start */
+ul li{list-style: none;}
+body{background-color: rgb(252, 247, 247);}
+nav{display: grid; grid-template-columns: 150px 882px;grid-template-rows: 40px; justify-content:center;font-size: 15px; color: rgb(147, 147, 147);width:100%;background-color: rgb(233, 230, 230);}
+nav div:nth-child(1){align-self: center;}
+nav div:nth-child(2){align-self: center;justify-self: flex-end;}
+.rollarea{width: 790px;overflow: hidden;}
+.roll li{float: left;}
+
+.div_second {
+  width: 2370px;
+  position: relative;
+  animation: myimg 6s infinite ease-out alternate;
+}
+@keyframes myimg {
+      0% {
+        left: 0;
+      }
+
+      50% {
+        left: -790px;
+      }
+
+      100% {
+        left: -1580px;
+      }
+    }
+
+
+nav ul li{float: left;margin-right: 20px;}
+a{text-decoration-line: none;color: rgb(147, 147, 147);}
+a:hover{color: red;}
+ul li span{color: rgb(179, 179, 179); padding-left:10px;}
+/* header start */
+header{display: grid; grid-template-columns: 1200px;grid-template-rows: 50px 30px 60px; justify-content: center;justify-items: center;background-color: rgb(236, 236, 236);}
+form{align-self: flex-end;}
+header input{width: 350px;height: 30px;border-radius: 5px;font-size: 14px;padding-left: 20px;color:rgb(179, 176, 176); ;}
+header button{width: 60px;height: 40px;border-radius: 5px;background-color: #D9334F;}
+header button:hover{opacity: 0.6;}
+header p{align-self: center;font-size: 15px;}
+header div{align-self: center;}
+.headersearch a{color: black;font-size: 16px;margin-left: 24px;}
+/* article start */
+article{background-color:rgb(236, 236, 236);}
+.nav-show{width: 1200px;display: grid;grid-template-columns: 220px 390px 390px;grid-template-rows: 165px 165px 130px;margin: auto;grid-gap:10px;justify-content: center;}
+.nav-show div:nth-child(1){grid-row: 1/4;grid-column:1/2;line-height: 36px;color: white;background-color: rgb(112, 100, 104);}
+.nav-show div:nth-child(2){grid-row: 1/3;grid-column:2/4;}
+.nav-show ul{padding-left: 15px;}
+.nav-show ul a{color: white;font-size: 14px;}
+.nav-show ul a:hover{color: red;}
+.countdown{width: 1022px;height: 50px;background-color: red;margin: auto;margin-top: 15px;display: grid;grid-template-columns: 33% 33% auto;grid-template-rows: 50px;color: white;}
+.clock{display: grid;grid-template-rows: 50px;grid-template-columns: 70px 110px 150px auto;align-items: center;}
+.clock img{margin: auto;}
+@keyframes clock{
+  0%{transform: rotate(60deg);}
+  20%{transform: rotate(-60deg);}
+  40%{transform: rotate(60deg);}
+  60%{transform: rotate(-60deg);}
+  80%{transform: rotate(60deg);}
+  100%{transform: rotate(-60deg);}
+}
+.clock img:hover{animation: clock 1s infinite;}
+h2{font-weight: normal;}
+.clock span{font-size: 12px;padding-top: 10px;}
+.time{display: grid; grid-template-rows: 50px;grid-template-columns: 65px 42px 7px 42px 7px 42px 80px auto;color:white;align-items: center;grid-gap:0 3px;}
+.block{width: 40px;height: 40px;background-color: black;border-radius: 5px;}
+.time p span{color: red;font-size: 30px;font-weight: 800;}
+.colon{color:black;font-size:30px;font-weight: 700;}
+.special-sale{width: 1022px;display: flex;justify-content: space-evenly;margin: auto;margin-top: 15px; background-color: white;}
+.special-sale div{width: 192px;height: 250px;display: grid;grid-template-rows: 160px 5px 40px 45px;border: 1px solid rgb(212, 211, 211);box-shadow: 5px 5px 5px gainsboro,-5px -5px 5px gainsboro; background-color: #fff;}
+.special-sale div img:hover{transform: translateY(-10px);}
+.special-sale div img{margin: auto;}
+.special-sale span hr{width: 170px;}
+.goods{color: #009688;font-size: 13px; padding-left: 15px;}
+.price{color: darkred;padding-left: 15px;}
+.lowprice{font-size: 30px;font-weight: 800;}
+.highprice{color: #009688;font-size: 13px;text-decoration-line: line-through;}
+.navigation{width: 1022px;height: 50px;background-color: #05756a; margin:auto;margin-top: 15px;
+  display: grid;grid-template-columns: 300px auto;grid-template-rows: 50px;align-items: center;}
+.navigation span{font-size: 25px;color: white;padding-left: 20px;}
+.navigation ul{width: 700px;display: flex;justify-content: space-evenly;}
+.navigation ul li{float: left;font-size: 13px;height: 30px;border: 1px solid #009688;background-color: rgb(128, 206, 241);}
+.navigation li a{display: inline-block; color: white;padding-left: 5px;padding-right: 5px;padding-top: 6px;}
+.navigation ul li:hover{border:2px solid white;}
+.digital-goods{width: 1022px;height: 400px; display: grid;grid-template-rows: repeat(3,130px);grid-template-columns: 193px 152px 152px 203px 152px 152px;justify-items: center;justify-content: center;margin: auto; background-color: white;padding-top: 10px;}
+.digital-goods div:hover{transform: translateX(-2px);}
+.digital-goods div:nth-child(1){grid-row: 1/3;grid-column: 1/2;}
+.digital-goods div:nth-child(4){grid-row: 1/3;grid-column: 4/5;}
+.digital-goods div:nth-child(11){grid-row: 3/4;grid-column: 1/7;}
+.particulars{width: 1022px; display: grid;grid-template-rows: 130px;grid-template-columns:49.5% 51%}
+.particulars-left{display: flex;justify-content: space-evenly; border-right: 1px solid lightgray;}
+.particulars-left img{padding-top: 5px; width: 158px; height: 125px;}
+.particulars-right{display: flex;justify-content: space-evenly;margin-right: 5px;}
+.particulars-right img{padding-top: 5px; width: 161px ; height: 125px;}
+.detailed-commodity{display: grid;grid-template-columns: 36% 64%;grid-template-rows: 130px;}
+.detailed-commodity img{ width: 90px;height: 90px;}
+.commodity-border{border-right: 1px solid lightgray;}
+.border-bottom{border-bottom: 1px solid lightgray;}
+.slogan{margin:auto;margin-left: 5px;color: #009688;font-size: 14px;}
+.slogan h6{padding-bottom: 10px;padding-top: 15px;}
+.picture{padding-top: 20px;}
+.picture img{width: 92px;height: 92px;}
+.foodnav{background-color: orange;}
+.foodnav ul li{border: 1px solid orange; background-color: rgba(238, 210, 120, 0.5);}
+.foodnav ul li:hover{border: 2px solid white;}
+.food-goods h6{color: orange;}
+footer{background-color: rgb(236, 236, 236);width: 100%;height: 400px;}
+iframe{width: 1022px;height: 400px;margin-left: 208px;}

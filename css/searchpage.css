@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration-line: none;}
+iframe{width: 100%;height: 181px;}
+.result{width: 1200px;height: 30px; margin: auto;color: grey;font-size: 13px;}
+.navigation{width: 1200px;height: 165px;display: grid;grid-template-columns: 90px auto;grid-template-rows: repeat(4,40px);margin: auto;font-size: 14px;}
+.navigation div:nth-child(2n+1){padding-top: 10px; padding-left: 10px; background-color: rgb(223, 221, 221);border-bottom: 1px solid grey;}
+.navigation div:nth-child(2n){border-bottom: 1px solid grey;}
+.navigation div a{text-decoration-line: none;color: #009688;margin-left: 15px;text-align: center;line-height: 40px;}
+aside{display: grid;grid-template-rows: 40px auto;grid-template-columns: 180px;border: 1px solid grey;}
+aside div img{width: 140px;height: 140px;}
+article{width: 1200px;height: 1500px;display: grid;grid-template-rows: 1500px;grid-template-columns: 180px auto;margin: auto;}
+.definition{display: grid;grid-template-rows: 40px;grid-template-columns: 150px auto;padding-top: 10px;}
+.definition p{font-size: 16px;color: red;padding-left: 10px;}
+span{color: grey;font-size: 12px;}
+.poster{display: flex;flex-direction: column;justify-content: space-evenly;padding-left: 10px;}
+h2{color: red;}
+.poster p{font-size: 12px;padding-bottom: 6px;padding-right: 14px;color: grey;}
+.poster p span{color:#009688 ;}
+.condition{height: 40px;margin-left: 10px;background-color: rgb(231, 229, 229);margin-bottom: 10px;}
+.condition div{float: left;font-size: 14px; background-color: #fff; padding: 1px 5px;margin: 10px 5px;}
+.goods{width: 1010px;height: 1650px; display: grid;grid-template-columns: repeat(4,252px);grid-template-rows: repeat(4,363px);justify-items: center;align-items: center;}
+.goods-one{justify-self: center;align-self: center;font-size: 12px;padding-left: 15px;padding-top: 5px;}
+.goods-one:hover{border: 1px solid gainsboro;box-shadow: 2px 2px 4px gainsboro,-2px -2px 4px gainsboro;}
+.top{width: 87%;}
+.goods p{padding-bottom: 6px;}
+.store{color: red;}
+.count{color: #009688;}
+.count span{color: rgb(6, 6, 71);font-weight: 800;}
+.turning{width: 350px;height: 35px;display: grid;grid-template-rows: 35px;grid-template-columns: repeat(10,35px);text-align: center;margin-left: 780px;margin-top: 20px;}
+.turning a{display: inline-block;border: 0.5px solid rgb(172, 171, 171);padding-top: 6px;color: #009688;}
+.turning a:hover{background-color: gainsboro;}
+footer{margin-top: 30px;background-color:gainsboro ;height: 400px; width: 100%;}
+footer iframe{height: 400px;}
+
+
+
+
+
+
+

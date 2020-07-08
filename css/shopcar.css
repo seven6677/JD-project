@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+a{color: black;text-decoration-line: none;}
+
+.buy{width: 100%;padding-left: 130px;height: 80px;padding-top: 20px;background-color: rgb(245, 245, 245);}
+.round{width: 30px;height: 30px;text-align: center;background-color: rgb(88, 185, 55);border-radius: 50%;font-size: 25px;font-weight: 800;margin-top: 7px;margin-right: 10px;}
+.buy div{float: left;}
+.success{font-size: 30px;color:rgb(88, 185, 55) ;}
+.goods{width: 100%;display: grid;grid-template-rows: 100px;grid-template-columns: 130px 55% 180px auto;background-color: rgb(245, 245, 245);}
+.good-left{display: grid;grid-template-columns: 100px auto;grid-template-rows: 100px;}
+.goods img{width: 65px;height: 65px;padding-top: 10px;padding-left: 10px;}
+.information{display: grid;grid-template-rows: 50px 50px;grid-template-columns: 690px;}
+.name{font-size: 14px;color: grey;}
+.definition{padding-top: 10px;}
+.good-center{width: 120px;height: 30px;background-color: white;padding-top: 10px;margin-top: 30px;margin-left: 30px;}
+.good-center:hover{border: 1px solid red;}
+.other-goods img{padding-top: 20px;}
+.good-center a{color: red;padding-left: 10px;}
+.good-right{width: 120px;height: 30px;padding-top: 10px;margin-top: 30px;background-color: red;}
+.good-right a{color: white;padding-left: 10px;}
+.good-right:hover{border: 1px solid red;}
+.other-goods{width: 100%;height: 350px;background-color: white;}
+.other-phone{width: 81%;margin: auto;height: 350px;display: grid;grid-template-rows: 70px auto;grid-template-columns: 100%;}
+.other-top{align-self: center;}
+.other-center{display: grid;grid-template-columns: repeat(4,1fr);grid-template-rows: 140px 140px;}
+/* .other-center div{display: grid;grid-template-rows: 140px;grid-template-columns: 110px auto;} */
+.other-one{width: 291px;height: 140px;display: grid;grid-template-rows: 140px;grid-template-columns: 110px auto;}
+.other-right{display: grid;grid-template-columns: 100%;grid-template-rows: 65px 25px 40px;}
+.slogen{font-size: 14px;padding-top: 10px;}
+.shopcar{width: 110px;height: 25px; color: red;border: 1px solid red;padding-left: 10px;padding-top: 5px;}
+.shopcar span{color: red;}
+.shopcar span:hover{color: darkred;}
+.price{color: red; font-weight: 800;}
+
+
+
+
+
+

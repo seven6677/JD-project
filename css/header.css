@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+/* nav start */
+ul li{list-style: none;}
+nav{display: grid; grid-template-columns: 150px 882px;grid-template-rows: 40px; justify-content:center;font-size: 15px;
+color: rgb(179, 176, 176);width:100%;background-color: rgb(227, 228, 229);}
+nav div:nth-child(1){align-self: center;}
+nav div:nth-child(2){align-self: center;justify-self: flex-end;}
+nav ul li{float: left;margin-right: 20px;}
+a{text-decoration-line: none;color: rgb(179, 176, 176);font-weight: 800;}
+a:hover{color: rgb(191, 0, 0);}
+ul li span{color: rgb(179, 179, 179); padding-left:10px;}
+header{display: grid; grid-template-columns: 100%;grid-template-rows: 50px 30px 60px; justify-content: center;justify-items: center;}
+form{align-self: flex-end;}
+header input{width: 350px;height: 30px;border-radius: 5px;font-size: 14px;padding-left: 20px;color:rgb(179, 176, 176); ;}
+header button{width: 60px;height: 40px;border-radius: 5px;background-color: #D9334F;}
+header button:hover{opacity: 0.6;}
+header p{align-self: center;font-size: 13px;}
+.classify{width: 100%;height: 60px;border-bottom: 1px solid red; }
+.sort{margin-left: 50px; width: 1200px;height: 60px; display: flex;justify-content: space-evenly;}
+.sort a{display: inline-block;color: rgb(191, 0, 0);padding-left: 20px;padding-right: 20px;padding-top: 20px;}
+.sort a:hover{color: white;background-color: rgb(191, 0, 0);}
+
+

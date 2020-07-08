@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;}
+a{text-decoration-line: none;color: black;}
+article{width: 100%;height: 500px;}
+.content{border: 1px solid lightgrey; width: 600px;height: 340px; margin: auto;margin-top: 100px;}
+.message{background-color: white;padding-left: 10px;}
+.people{height: 28px;width: 590px; border-bottom: 1px solid lightgray;padding-top: 3px;padding-left: 10px; background-color: rgb(245, 245, 245);}
+.bottom{width: 600px;height: 54px; background-color:  rgb(245, 245, 245);}
+button{margin-left: 520px;width: 65px;height: 30px;background-color: rgb(232, 67, 65);color: white;margin-top: 10px;font-size: 14px;}
+

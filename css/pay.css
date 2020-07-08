@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+a{text-decoration-line: none;color: black;}
+section{width:380px;height: 560px;margin: auto;
+display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;justify-items: center;}
+.scan{font-size: 22px;}
+.qr img{width: 380px;height: 380px;}
+.success{width: 120px;height: 40px;background-color: red;border: 1px solid red;border-radius: 5px; padding-top: 6px;}
+.success a{color: white;font-size: 20px;text-align: center;padding-left: 20px;}
+
+
+

@@ -1,0 +1,16 @@
+ul li{list-style: none;}
+a{text-decoration-line: none;color: grey;font-size: 14px;}
+body{background-color: rgb(234, 234, 234);}
+article{width: 1022px;height: 400px;display: grid;grid-template-columns: 1022px;grid-template-rows: 100px 200px 100px;justify-items: center;margin: auto;}
+.slogen{width: 1022px; display: flex;flex-direction: row; justify-content: space-evenly;align-items: center;border-bottom: 1px solid #009688;}
+h3{height: 43px;background: url(../img/ico_service.png) no-repeat;text-indent: 48px;line-height: 40px; display: inline-block;}
+.fast {background-position: 0 -43px;}
+.good {background-position: 0 -86px;}
+.save{background-position: 0 -129px;}
+.nav-list{width: 1022px; display: flex;flex-direction: row;justify-content: space-around;border-bottom: 1px solid #009688; }
+.nav-list ul li{line-height: 23px;}
+.title{font-size: 17px;color: rgb(107, 103, 103);font-weight: 700;}
+.bottom ul li{float: left;margin-left: 10px;}
+span{color: grey;margin-left: 10px;}
+.bottom li a{font-size: 14px;}
+.statement{color: grey;font-size: 14px;text-align: center;margin-top: 50px;}
